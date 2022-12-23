@@ -26,6 +26,11 @@ export const BaseButton = styled.button`
     color: black;
     border: 1px solid black;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 40%;
+    margin: auto;
+  }
 `;
 
 BaseButton.displayName = 'BaseButton';
